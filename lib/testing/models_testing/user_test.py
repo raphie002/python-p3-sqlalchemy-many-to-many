@@ -1,5 +1,6 @@
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+# lib/testing/models_testing/user_test.py
+from sqlalchemy import create_engine # type: ignore
+from sqlalchemy.orm import sessionmaker # type: ignore
 
 from conftest import SQLITE_URL
 from models import User, Game, Review

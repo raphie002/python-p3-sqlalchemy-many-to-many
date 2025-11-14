@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+# lib/debug.py
+from sqlalchemy import create_engine # type: ignore
+from sqlalchemy.orm import sessionmaker # type: ignore
 
 from models import Game, Review, User
 
@@ -11,4 +11,4 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    import ipdb; ipdb.set_trace()
+    import ipdb; ipdb.set_trace() # type: ignore

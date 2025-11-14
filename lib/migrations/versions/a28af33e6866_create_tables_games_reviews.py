@@ -1,3 +1,4 @@
+# lib/migrations/versions/a28af33e6866_create_tables_games_reviews.py
 """create tables games, reviews
 
 Revision ID: a28af33e6866
@@ -5,8 +6,8 @@ Revises: 3c16dffa4b50
 Create Date: 2023-03-15 13:34:48.394569
 
 """
-from alembic import op
-import sqlalchemy as sa
+from alembic import op # type: ignore
+import sqlalchemy as sa # type: ignore
 
 
 # revision identifiers, used by Alembic.

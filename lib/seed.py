@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-
-from faker import Faker
+# lib/seed.py
+from faker import Faker # type: ignore
 import random
 
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine # type: ignore
+from sqlalchemy.orm import sessionmaker # type: ignore
 
 from models import Game, Review
 

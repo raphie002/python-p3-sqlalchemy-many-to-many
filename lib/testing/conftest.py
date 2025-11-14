@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# lib/testing/conftest.py
 import os
 
 package_dir = '/'.join(os.path.abspath(os.path.dirname(__file__)).split('/')[0:-1])
